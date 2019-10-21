@@ -12,3 +12,35 @@
         width: 33%;
     }
 }
+
+#search-bar{
+    max-width: 650px;
+    font-size: 100%;
+    display: inline;
+    padding: 20px;
+}
+
+#search-query{
+    text-align: left;
+    font-size: 12px;
+
+}
+
+#search-button{
+    width: 15px;
+    height: 15px;
+}
+
+#search-button-span{
+    background-image: url("../images/icons.png");
+    background-position: -28px -66px;
+    width: 15px;
+    height: 15px;
+}
+
+#Youtubehome span{
+    background-image: url("../yt_logo.png");
+    font-size: 100%;
+    width: 40px;
+    height: 30px;
+}
