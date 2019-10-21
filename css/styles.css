@@ -1,0 +1,14 @@
+#lefttab, #righttab {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    #lefttab {
+        float: left;
+        width: 66%;
+    }
+    #righttab {
+        float: right;
+        width: 33%;
+    }
+}
