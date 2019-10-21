@@ -1,5 +1,16 @@
+* {
+    font-family: 'YouTube Noto', Roboto, arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+}
+
 #content {
-    margin: 20px;
+    margin: 50px;
 }
 
 #lefttab, #righttab {
@@ -14,6 +25,8 @@
 
 .thumbnail {
     position: relative;
+    height: 94px;
+    margin-bottom: 10px;
 }
 
 .thumbnail-left {
@@ -24,9 +37,24 @@
 .thumbnail-right {
     position: relative;
     left: 181px;
+    text-decoration: none;
 }
 .thumbnail-right span {
     display: block;
+    margin-bottom: 5px;
+}
+
+.thumbnail-title {
+    width: 60%;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+}
+
+.thumbnail-channel-name, .thumbnail-viewcount {
+    color: rgb(118, 118, 118);
+    font-size: 11px;
 }
 
 @media only screen and (min-width: 768px) {
