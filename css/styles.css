@@ -7,6 +7,7 @@ nav {
     width: 100%;
     top: 0;
     background-color: white;
+    padding: 5px;
 }
 
 #content {
@@ -73,6 +74,7 @@ nav {
     font-size: 100%;
     display: inline;
     padding: 20px;
+    vertical-align: super;
 }
 
 #search-query{
@@ -85,6 +87,7 @@ nav {
 
 #search-button{
     height: 29px;
+    vertical-align: sub;
 }
 
 #search-button-span{
@@ -95,9 +98,27 @@ nav {
     display: block;
 }
 
+#Youtubehome{
+    text-decoration: none;
+}
+
 #Youtubehome span{
     background-image: url("../yt_logo.png");
     font-size: 100%;
     width: 40px;
     height: 30px;
+}
+
+#channel-icon{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+}
+
+#channel-icon span{
+    vertical-align: super;
+}
+
+#views-count p{
+    text-align: right;
 }
