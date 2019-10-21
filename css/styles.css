@@ -1,5 +1,32 @@
+#content {
+    margin: 20px;
+}
+
 #lefttab, #righttab {
     width: 100%;
+}
+
+#video {
+    width: 100%;
+    height: auto;
+    min-height: 480px;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.thumbnail-left {
+    position: absolute;
+    top: 0px;
+}
+
+.thumbnail-right {
+    position: relative;
+    left: 181px;
+}
+.thumbnail-right span {
+    display: block;
 }
 
 @media only screen and (min-width: 768px) {
@@ -14,7 +41,7 @@
 }
 
 #search-bar{
-    max-width: 650px;
+    width: 100%;
     font-size: 100%;
     display: inline;
     padding: 20px;
@@ -22,13 +49,14 @@
 
 #search-query{
     text-align: left;
-    font-size: 12px;
-
+    height: 27px;
+    font-size: 16px;
+    width:  100%;
+    max-width: 650px;
 }
 
 #search-button{
-    width: 15px;
-    height: 15px;
+    height: 29px;
 }
 
 #search-button-span{
@@ -36,6 +64,7 @@
     background-position: -28px -66px;
     width: 15px;
     height: 15px;
+    display: block;
 }
 
 #Youtubehome span{
