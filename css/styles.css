@@ -154,12 +154,27 @@ h3{
     float: right;
 }
 
-#share{
-    background-color: white;
-    border: 0;
-    text-align: center;
+
+.video-button {
+    height: 32px;
+    border: none;
+    background: none;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    font-size: 14px;
 }
 
+#share {
+    background-image: url("../images/share-icon.png");
+}
+
+#like {
+    background-image: url("../images/like-icon.png");
+}
+
+#dislike {
+    background-image: url("../images/dislike-icon.png");
+}
 #last-buttons{
     height: 30px;
 }
