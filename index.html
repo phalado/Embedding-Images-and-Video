@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html>
+<html lang="en">
     <head>
         <title>Youtube Clone</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -7,60 +7,54 @@
     <body>
         <nav>
             <a class="mini-icons" id="menu-button">
-                <img src="images/Hamburger_icon.svg.png" height="30">
+                <img src="images/hamburger.png" alt="Hambuger icon" height="30">
             </a>
             <a class="mini-icons" id="Youtubehome" href="youtube.com">
-                <img src="images/yt_logo.png" height="30">
+                <img src="images/youtube.png" alt="Youtube logo" height="30">
             </a>
-            <form id="search-bar" action="">
+            <form id="search-bar" action="/">
                 <input type="text" id="search-query" placeholder="Search">
                 <button id="search-button"><span id="search-button-span"></span></button>
             </form>
             <a class="mini-icons" id="grid">
-                <img src="images/grid-icon.png" height="20">
+                <img src="images/grid-icon.png" alt="Grid icon" height="20">
             </a>
             <a class="mini-icons" id="bell">
-                <img src="images/bell-icon.png" height="20">
+                <img src="images/bell-icon.png" alt="Bell icon" height="20">
             </a>
             <a class="mini-icons" id="avatar">
-                <img src="images/profile-icon.png" height="20">
+                <img src="images/profile-icon.png" alt="Profile icon" height="20">
             </a>
         </nav>
-        <div id="content">
-            <div id="lefttab">
-                <iframe id="video" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <main id="content">
+            <article id="lefttab">
+                <iframe id="video" src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-                <div>
-                    <div id="title">
-                        <h2>Contributing to Open Source Part I: The Easy Way</h2>
-                    </div>
-                    <div id="controls">
-                        <a id="channel-icon" href="https://archive.fo/o/Bss88/https://www.youtube.com/channel/UCk0b0VTnJxXbxupXJ4D2yjQ">
-                            <img src="images/channel.jpg" height="40">
-                            <span>The Odin Project</span>
-                        </a>
-                        <button id="subscribe">
-                            <img src="images/subscribe.jpg" height="30">
-                        </button>
-                        <div id="views-count"><p>55,432 views</p></div>
-                    </div>
-                    <div id="last-buttons">
-                        <button id="share" class="video-button">Share</button>
-                        <button id="dislike" class="video-button">14</button>
-                        <button id="like" class="video-button">359</button>
-                    </div>
+                <h2 id="title">Contributing to Open Source Part I: The Easy Way</h2>
+                <div id="controls">
+                    <a id="channel-icon" href="https://archive.fo/o/Bss88/https://www.youtube.com/channel/UCk0b0VTnJxXbxupXJ4D2yjQ">
+                        <img src="images/channel.jpg" alt="Channel icon" height="40">
+                        <span>The Odin Project</span>
+                    </a>
+                    <button id="subscribe">
+                        <img src="images/subscribe.jpg" alt="Subscribe button" height="30">
+                    </button>
+                    <div id="views-count"><p>55,432 views</p></div>
                 </div>
-                <br>
-                <br>
-                <div id="description">
+                <div id="last-buttons">
+                    <button id="share" class="video-button">Share</button>
+                    <button id="dislike" class="video-button">14</button>
+                    <button id="like" class="video-button">359</button>
+                </div>
+                <section id="description">
                     <h3>Published on Feb 27, 2014</h3>
                     <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.</p>
-                </div>
-            </div>
-            <div id="righttab">
+                </section>
+            </article>
+            <aside id="righttab">
                 <div class="thumbnail">
                     <a class="thumbnail-left" href="#">
-                        <img class="thumbnail-image" src="images/thumb1.jpeg" height="94" width="168" />
+                        <img class="thumbnail-image" src="images/thumb1.jpeg" alt="Video thumbnail" height="94" width="168" />
                     </a>
                     <a class="thumbnail-right" href="#">
                         <span class="thumbnail-title">Contributing to Open Source Part II: The Real Way</span>
@@ -70,7 +64,7 @@
                 </div>
                 <div class="thumbnail">
                     <a class="thumbnail-left" href="#">
-                        <img class="thumbnail-image" src="images/thumb2.jpeg" height="94" width="168" />
+                        <img class="thumbnail-image" src="images/thumb2.jpeg" alt="Video thumbnail" height="94" width="168" />
                     </a>
                     <a class="thumbnail-right" href="#">
                         <span class="thumbnail-title">How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' by Sean Lee</span>
@@ -80,7 +74,7 @@
                 </div>
                 <div class="thumbnail">
                     <a class="thumbnail-left" href="#">
-                        <img class="thumbnail-image" src="images/thumb3.jpeg" height="94" width="168" />
+                        <img class="thumbnail-image" src="images/thumb3.jpeg" alt="Video thumbnail" height="94" width="168" />
                     </a>
                     <a class="thumbnail-right" href="#">
                         <span class="thumbnail-title">Programming in Visual Basic .Net How to Connect Access Database to VB.Net</span>
@@ -90,7 +84,7 @@
                 </div>
                 <div class="thumbnail">
                     <a class="thumbnail-left" href="#">
-                        <img class="thumbnail-image" src="images/thumb4.jpeg" height="94" width="168" />
+                        <img class="thumbnail-image" src="images/thumb4.jpeg" alt="Video thumbnail" height="94" width="168" />
                     </a>
                     <a class="thumbnail-right" href="#">
                         <span class="thumbnail-title">REST API concepts and examples</span>
@@ -100,7 +94,7 @@
                 </div>
                 <div class="thumbnail">
                     <a class="thumbnail-left" href="#">
-                        <img class="thumbnail-image" src="images/thumb1.jpeg" height="94" width="168" />
+                        <img class="thumbnail-image" src="images/thumb1.jpeg" alt="Video thumbnail" height="94" width="168" />
                     </a>
                     <a class="thumbnail-right" href="#">
                         <span class="thumbnail-title">Contributing to Open Source Part II: The Real Way</span>
@@ -110,7 +104,7 @@
                 </div>
                 <div class="thumbnail">
                     <a class="thumbnail-left" href="#">
-                        <img class="thumbnail-image" src="images/thumb2.jpeg" height="94" width="168" />
+                        <img class="thumbnail-image" src="images/thumb2.jpeg" alt="Video thumbnail" height="94" width="168" />
                     </a>
                     <a class="thumbnail-right" href="#">
                         <span class="thumbnail-title">How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' by Sean Lee</span>
@@ -120,7 +114,7 @@
                 </div>
                 <div class="thumbnail">
                     <a class="thumbnail-left" href="#">
-                        <img class="thumbnail-image" src="images/thumb3.jpeg" height="94" width="168" />
+                        <img class="thumbnail-image" src="images/thumb3.jpeg" alt="Video thumbnail" height="94" width="168" />
                     </a>
                     <a class="thumbnail-right" href="#">
                         <span class="thumbnail-title">Programming in Visual Basic .Net How to Connect Access Database to VB.Net</span>
@@ -130,7 +124,7 @@
                 </div>
                 <div class="thumbnail">
                     <a class="thumbnail-left" href="#">
-                        <img class="thumbnail-image" src="images/thumb4.jpeg" height="94" width="168" />
+                        <img class="thumbnail-image" src="images/thumb4.jpeg" alt="Video thumbnail" height="94" width="168" />
                     </a>
                     <a class="thumbnail-right" href="#">
                         <span class="thumbnail-title">REST API concepts and examples</span>
@@ -140,7 +134,7 @@
                 </div>
                 <div class="thumbnail">
                     <a class="thumbnail-left" href="#">
-                        <img class="thumbnail-image" src="images/thumb1.jpeg" height="94" width="168" />
+                        <img class="thumbnail-image" src="images/thumb1.jpeg" alt="Video thumbnail" height="94" width="168" />
                     </a>
                     <a class="thumbnail-right" href="#">
                         <span class="thumbnail-title">Contributing to Open Source Part II: The Real Way</span>
@@ -150,7 +144,7 @@
                 </div>
                 <div class="thumbnail">
                     <a class="thumbnail-left" href="#">
-                        <img class="thumbnail-image" src="images/thumb2.jpeg" height="94" width="168" />
+                        <img class="thumbnail-image" src="images/thumb2.jpeg" alt="Video thumbnail" height="94" width="168" />
                     </a>
                     <a class="thumbnail-right" href="#">
                         <span class="thumbnail-title">How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' by Sean Lee</span>
@@ -160,7 +154,7 @@
                 </div>
                 <div class="thumbnail">
                     <a class="thumbnail-left" href="#">
-                        <img class="thumbnail-image" src="images/thumb3.jpeg" height="94" width="168" />
+                        <img class="thumbnail-image" src="images/thumb3.jpeg" alt="Video thumbnail" height="94" width="168" />
                     </a>
                     <a class="thumbnail-right" href="#">
                         <span class="thumbnail-title">Programming in Visual Basic .Net How to Connect Access Database to VB.Net</span>
@@ -170,7 +164,7 @@
                 </div>
                 <div class="thumbnail">
                     <a class="thumbnail-left" href="#">
-                        <img class="thumbnail-image" src="images/thumb4.jpeg" height="94" width="168" />
+                        <img class="thumbnail-image" src="images/thumb4.jpeg" alt="Video thumbnail" height="94" width="168" />
                     </a>
                     <a class="thumbnail-right" href="#">
                         <span class="thumbnail-title">REST API concepts and examples</span>
@@ -178,8 +172,8 @@
                         <span class="thumbnail-viewcount">3,580,484 views</span>
                     </a>
                 </div>
-            </div>
-        </div>
+            </aside>
+        </main>
         <footer>
             <!-- Footer stuff go here -->
         </footer>
