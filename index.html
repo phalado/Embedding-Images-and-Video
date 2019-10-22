@@ -6,16 +6,25 @@
     </head>
     <body>
         <nav>
-            <a id="menu-button">
-                <img src="images/Hamburger_icon.svg.png" height=30px vertical-align: baseline;>
+            <a class="mini-icons" id="menu-button">
+                <img src="images/Hamburger_icon.svg.png" height="30">
             </a>
-            <a id="Youtubehome" href="youtube.com">
-                <img src="images/yt_logo.png" height=30px>
+            <a class="mini-icons" id="Youtubehome" href="youtube.com">
+                <img src="images/yt_logo.png" height="30">
             </a>
             <form id="search-bar" action="">
                 <input type="text" id="search-query" placeholder="Search">
                 <button id="search-button"><span id="search-button-span"></span></button>
             </form>
+            <a class="mini-icons" id="grid">
+                <img src="images/grid-icon.png" height="20">
+            </a>
+            <a class="mini-icons" id="bell">
+                <img src="images/bell-icon.png" height="20">
+            </a>
+            <a class="mini-icons" id="avatar">
+                <img src="images/profile-icon.png" height="20">
+            </a>
         </nav>
         <div id="content">
             <div id="lefttab">
@@ -30,11 +39,30 @@
                             <img src="images/channel.jpg" height="40">
                             <span>The Odin Project</span>
                         </a>
+                        <button id="subscribe">
+                            <img src="images/subscribe.jpg" height="30">
+                        </button>
                         <div id="views-count"><p>55,432 views</p></div>
                     </div>
+                    <div id="last-buttons">
+                        <button id="share">
+                            <img src="images/share.jpg" height="30">
+                            Share
+                        </button>
+                        <button id="dislike">
+                            <img src="images/like.png" height="30">
+                            14
+                        </button>
+                        <button id="like">
+                            <img src="images/dislike.png" height="30">
+                            359
+                        </button>
+                    </div>
                 </div>
-
+                <br>
+                <br>
                 <div id="description">
+                    <h3>Published on Feb 27, 2014</h3>
                     <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.</p>
                 </div>
             </div>
