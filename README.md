@@ -1,8 +1,21 @@
-# Youtube Clone
-Embedding Images and Video - First project in microverse
+# Embedding Images and Video
 
-This project consists of building an HTML document that matches the appearance of youtube video player page.
+Embedding Images and Video is the first project in the Microverse curriculum. It consists of a static Youtube-like page, where you can play a selected video.
 
-The task is to clone YouTube’s video player page using this web archive link: http://archive.today/Bss88 as a source page.
+## Link to assignment
 
-More details on https://microverse.pathwright.com/library/fast-track-curriculum/69047/path/step/48945837/
+The assignment can be found in the Odin Project's HTML and CSS course that can be found [here](https://www.theodinproject.com/courses/html5-and-css3/lessons/embedding-images-and-video).
+
+## Technologies used
+
+Basic HTML5 and CSS. Since it´s only a static page it was not necessary to use JavaScript or another language.
+
+## Our project
+
+Our project can be found in https://github.com/phalado/Embedding-Images-and-Video, and a live view can be found [here](https://rawcdn.githack.com/phalado/Embedding-Images-and-Video/9002208367abdfd7761182d440c24e8a561bddc0/index.html).
+
+## Contributors
+
+Eleazar Meza - [GitHub](https://github.com/elshaka)
+
+Raphael Corde - [GitHub](https://github.com/phalado)
