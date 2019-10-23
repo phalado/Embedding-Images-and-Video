@@ -1,0 +1,173 @@
+html {
+    font-family: 'YouTube Noto', Roboto, arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 96%;
+    top: 0;
+    background-color: white;
+    padding: 5px;
+    display: inline-flex;
+    z-index: 1;
+}
+
+form {
+    width: -webkit-fill-available;
+    font-size: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+form input {
+    text-align: left;
+    height: 30px;
+    font-size: 16px;
+    width:  100%;
+    max-width: 650px;
+}
+
+form button {
+    height: 36px;
+    vertical-align: sub;
+}
+
+form button span {
+    background-image: url("../images/icons.png");
+    background-position: -28px -66px;
+    width: 15px;
+    height: 15px;
+    display: block;
+}
+
+main {
+    margin: 50px;
+}
+
+article, aside {
+    width: 100%;
+}
+
+main article iframe {
+    width: 100%;
+    height: auto;
+    min-height: 480px;
+    border: none;
+}
+
+.thumbnail {
+    position: relative;
+    height: 94px;
+    margin-bottom: 10px;
+}
+
+.thumbnail-left {
+    position: absolute;
+}
+
+.thumbnail-right {
+    position: relative;
+    left: 181px;
+    text-decoration: none;
+}
+.thumbnail-right span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.thumbnail-title {
+    width: 60%;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+}
+
+.thumbnail-channel-name, .thumbnail-viewcount {
+    color: rgb(118, 118, 118);
+    font-size: 11px;
+}
+
+@media only screen and (min-width: 768px) {
+    article {
+        float: left;
+        width: 66%;
+    }
+    aside {
+        float: right;
+        width: 33%;
+    }
+}
+
+.controls{
+    height: 50px;
+    padding-right: 10px;
+}
+
+.controls a {
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    float: left;
+    text-decoration: none;
+}
+
+.controls a span{
+    vertical-align: super;
+}
+
+main article div div p{
+    float: right;
+}
+
+.mini-icons{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 3px;
+    text-decoration: none;
+}
+
+main article div button{
+    background-color: white;
+    border: 0;
+    float: left;
+    margin-top: 7px;
+    padding-left: 10px;
+}
+
+h3{
+    font-size: 13px;
+}
+
+.dislike, .like{
+    background-color: white;
+    border: 0;
+    float: right;
+}
+
+.share, .like, .dislike {
+    height: 32px;
+    border: none;
+    background: none;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    font-size: 14px;
+}
+.share {
+    background-image: url("../images/share-icon.png");
+}
+
+.like {
+    background-image: url("../images/like-icon.png");
+}
+
+.dislike {
+    background-image: url("../images/dislike-icon.png");
+}
+
+.last-buttons{
+    height: 30px;
+}
+
+.description{
+    margin-top: 30px;
+}
