@@ -1,4 +1,4 @@
-* {
+html {
     font-family: 'YouTube Noto', Roboto, arial, sans-serif;
 }
 
@@ -12,14 +12,14 @@ nav {
     z-index: 1;
 }
 
-#search-bar{
+form {
     width: -webkit-fill-available;
     font-size: 100%;
-    display: inline-flex !important;
+    display: inline-flex;
     justify-content: center;
 }
 
-#search-query{
+form input {
     text-align: left;
     height: 30px;
     font-size: 16px;
@@ -27,12 +27,12 @@ nav {
     max-width: 650px;
 }
 
-#search-button{
+form button {
     height: 36px;
     vertical-align: sub;
 }
 
-#search-button-span{
+form button span {
     background-image: url("../images/icons.png");
     background-position: -28px -66px;
     width: 15px;
@@ -40,15 +40,15 @@ nav {
     display: block;
 }
 
-#content {
+main {
     margin: 50px;
 }
 
-#lefttab, #righttab {
+article, aside {
     width: 100%;
 }
 
-#video {
+main article iframe {
     width: 100%;
     height: auto;
     min-height: 480px;
@@ -63,7 +63,6 @@ nav {
 
 .thumbnail-left {
     position: absolute;
-    top: 0px;
 }
 
 .thumbnail-right {
@@ -90,54 +89,44 @@ nav {
 }
 
 @media only screen and (min-width: 768px) {
-    #lefttab {
+    article {
         float: left;
         width: 66%;
     }
-    #righttab {
+    aside {
         float: right;
         width: 33%;
     }
 }
 
-#Youtubehome{
-    text-decoration: none;
+.controls{
+    height: 50px;
+    padding-right: 10px;
 }
 
-#Youtubehome span{
-    background-image: url("../yt_logo.png");
-    font-size: 100%;
-    width: 40px;
-    height: 30px;
-}
-
-#channel-icon{
-    text-decoration: none;
+.controls a {
     font-size: 20px;
     color: rgb(51, 51, 51);
     float: left;
+    text-decoration: none;
 }
 
-#channel-icon span{
+.controls a span{
     vertical-align: super;
 }
 
-#views-count p{
+main article div div p{
     float: right;
-}
-
-#controls{
-    height: 50px;
-    padding-right: 10px;
 }
 
 .mini-icons{
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 3px;
+    text-decoration: none;
 }
 
-#subscribe{
+main article div button{
     background-color: white;
     border: 0;
     float: left;
@@ -149,13 +138,13 @@ h3{
     font-size: 13px;
 }
 
-#dislike, #like{
+.dislike, .like{
     background-color: white;
     border: 0;
     float: right;
 }
 
-.video-button {
+.share, .like, .dislike {
     height: 32px;
     border: none;
     background: none;
@@ -163,23 +152,22 @@ h3{
     padding-left: 40px;
     font-size: 14px;
 }
-
-#share {
+.share {
     background-image: url("../images/share-icon.png");
 }
 
-#like {
+.like {
     background-image: url("../images/like-icon.png");
 }
 
-#dislike {
+.dislike {
     background-image: url("../images/dislike-icon.png");
 }
-#last-buttons{
+
+.last-buttons{
     height: 30px;
 }
 
-#description{
+.description{
     margin-top: 30px;
 }
-
