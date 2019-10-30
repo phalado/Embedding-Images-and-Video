@@ -18,4 +18,4 @@ Our project can be found in https://github.com/phalado/Embedding-Images-and-Vide
 
 Eleazar Meza - [GitHub](https://github.com/elshaka)
 
-Raphael Corde - [GitHub](https://github.com/phalado)
+Raphael Cordeiro - [GitHub](https://github.com/phalado)
